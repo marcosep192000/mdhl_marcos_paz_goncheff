@@ -1,12 +1,13 @@
-
-header{
+header {
     background-color: beige;
-    padding: 10px ;
+    padding: 10px;
 }
-a{
+
+a {
     padding-left: 12px;
 }
 
-
-img{width: 200px;
-height: 200px;}
+img {
+    width: 230px;
+    height: 200px;
+}
