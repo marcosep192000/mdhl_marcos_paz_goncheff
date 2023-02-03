@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+.imageHeader {
+    padding: 0xp 20px;
+    width: 100%;
+    height: 800px;
+}
+header h1 {
+    position: absolute;
+    top: 30px;
+    margin-left: 20px;
+    font-size: 70px;
+    color: white;
+    text-shadow: 1px;
+}
+
+.pages {
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    top: 10px;
+    text-decoration: none;
+    color: white; 
+    
+
+    
+}
+.index {
+    background-color: rgba(22, 121, 234, 0.986);
+    border: 1px solid black;
+    position: absolute;
+    top: 840px;
+    left: 826px ;
+}
+.aboutMe {
+    background-color: rgba(22, 121, 234, 0.986);
+    border: 1px solid black;
+    position:absolute;
+    top: 840px;
+    left: 900px ;
+}
+.contact {
+    background-color: rgba(22, 121, 234, 0.986);
+    border: 1px solid black;
+    position: absolute;
+    top: 840px;
+    left: 1026px ;
+}
+header h2 {
+    text-align: center;
+    background-color: gray;
+    color: aliceblue;
+}
+.logo {
+    height: 200px;
+    width: auto;
+    position: relative;
+    background-color: white;
+    position: absolute;
+    left: 80%;
+    top: 720px;
+    z-index: 10;
+    border-radius: 30px ;
+   border-color: gray; 
+   box-shadow: 5px 4px ;
+}
+section{
+    margin-top: 30px ;
+
+}
