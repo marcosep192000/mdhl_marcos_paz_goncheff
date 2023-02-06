@@ -1,63 +1,89 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
-
-#logo {
-    height: 100px;
-    width: auto;
-    position: relative;
-    background-color: white;
-    position: absolute;
-    left: 80%;
-    top: 475px;
-    z-index: 10;
+.logo {
+  height: 100px;
+  width: auto;
+  position: relative;
+  background-color: white;
+  position: absolute;
+  left: 80%;
+  top: 570px;
+  z-index: 10;
 }
 
 header h2 {
-    background-color: beige;
-    position: relative;
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    padding: 0px 0px 10px 0px;
+  background-color: beige;
+  position: relative;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 0px 0px 10px 0px;
 }
 
-#imageHeader {
-    width: 100%;
-    height: 500px;
+.imageHeader {
+width: 100%;
+height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ 
 }
 
 main {
-    position: relative;
+  position: relative;
 }
 
 a {
-    display: block;
-    padding-bottom: 50px;
-    margin-top: 20px;
+  display: block;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  margin-left:300px;
 }
 
-
 header h1 {
-    position: absolute;
-    color: yellow;
-    text-shadow: 1px 1px white;
-    top: 50px;
-    margin-left: 40px;
-    font-size: 70px;
+  position: absolute;
+  color: yellow;
+  text-shadow: 1px 1px white;
+  top: 50px;
+  margin-left: 40px;
+  font-size: 70px;
 }
 
 section {
-    position: absolute;
-    left: 300px;
-    top: 1px;
-
+  position: absolute;
+  left: 500px;
+  top: 1px;
 }
 
 section h3 {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
+}
+.image2 {
+  width: 300px;
+  position: absolute;
+  left: 800px;
+  border-radius: 5px;
+  top: 20px;
+  box-shadow: 3px 5px;
+}
+
+.uno{
+  position: absolute;
+  left: 450px;
+  top: 0 ; 
+}
+.dos {
+    position: absolute;
+    left: 450px;
+    top:70px; 
+}
+.tres{
+    position:absolute; 
+    left: 450px ;
+    top : 140px  ; 
 }
