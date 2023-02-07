@@ -5,6 +5,19 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+body {
+  margin: 0px;
+}
+header{
+  background-image: url(../img/design1_image1.jpg);
+  
+  
+background-size: cover;
+  height: 600px; 
+
+position: relative;
+}
+
 .logo {
   height: 100px;
   width: auto;
@@ -16,14 +29,12 @@
   z-index: 10;
 }
 
-header h2 {
-  background-color: beige;
-  position: relative;
+.title>h2 {
   background-color: black;
   color: aliceblue;
   text-align: center;
-  padding: 0px 0px 10px 0px;
 }
+
 
 .imageHeader {
 width: 100%;
@@ -31,18 +42,17 @@ height: 600px;
   margin-left: auto;
   margin-right: auto;
   display: block;
- 
-}
 
-main {
+}
+main{
+   
   position: relative;
 }
-
 a {
   display: block;
   padding-bottom: 50px;
   margin-top: 20px;
-  margin-left:300px;
+  margin-left:250px;
 }
 
 header h1 {
@@ -56,8 +66,8 @@ header h1 {
 
 section {
   position: absolute;
-  left: 500px;
-  top: 1px;
+  left: 400px;
+  top: 40px;
 }
 
 section h3 {
@@ -68,22 +78,28 @@ section h3 {
   position: absolute;
   left: 800px;
   border-radius: 5px;
-  top: 20px;
+  top: 40px;
   box-shadow: 3px 5px;
 }
 
 .uno{
   position: absolute;
-  left: 450px;
-  top: 0 ; 
+  left: 430px;
+  top: 45px ; 
 }
 .dos {
     position: absolute;
-    left: 450px;
-    top:70px; 
+    left: 430px;
+    top:150px; 
 }
 .tres{
     position:absolute; 
-    left: 450px ;
-    top : 140px  ; 
+    left: 430px ;
+    top : 230px  ; 
+}
+.email{
+  
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-left:0px;
 }
