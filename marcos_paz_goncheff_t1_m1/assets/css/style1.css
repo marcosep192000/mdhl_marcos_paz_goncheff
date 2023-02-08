@@ -2,78 +2,87 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
-body {
+body{
     position: relative;
 }
-.imageHeader {
+header>h1 {
+    font-size: 50px;
+    z-index: 2;
+}
+
+header .banner2{
     width: 100%;
-    height: 600px;
-    margin-top: 3em;
+    height: 400px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: url(../img/design1_image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
-header h1 {
-    position: absolute;
-    top: 0;
-    margin-left: 20px;
-    font-size: 50px ;
-   
-}
+body > main .pages{
 
-.pages {
-    padding: 10px 10px;
-    margin: 5px;
-    border-radius: 4px;
-    top: 10px;
+position: absolute; 
+top: 15px ; 
+
+} 
+
+.pages{
+    position: relative;
+    background-color: green; 
+    color :aliceblue;
     text-decoration: none;
-    color:white; 
-
+    padding: 15px ;
    
 }
-
-.index {
-    background-color: green;
-    border: 1px solid black ;
-    position: absolute;
-    left: 74%;
-        top: 22px;
+.index{
+    left: 1024px   ;
+    
+    border:1px solid black;
+}
+.contact{
+    left:1098px; 
+    border:1px solid black;
+}
+.aboutMe{
+    left: 1200px;
+    border:1px solid black;
 }
 
-.aboutMe {
-    background-color: green;
-    border: 1px solid black ;
-    position: absolute;
-    left: 81%;
-    top: 22px;
-}
-
-.contact {
-    background-color: green;
-    border: 1px solid black ;
-    position: absolute;
-    left: 90%;
-    top: 22px;
-}
-
-header h2 {
+.title>h2{
+    width: 100%;
     background-color: black;
-    color: white;
+    color:white;
     text-align: center;
 }
 
-section {
-    left: 200px;
-}
-section h2,h3{
-    position:relative;
-    margin-top: 10px;
-    left: 200px;
-}
-.logo { 
-    position: absolute;
+
+
+
+/* imagenes */
+.logo {
     width: 200px;
-    height: 200px;
-    top: 700px;
+    height: 200px; 
+    position:absolute;
+     top:480px; 
+}
+
+.image2 {
+    width: 250px;
+    height: auto;
+    float:right;
+    box-shadow: 4px 4px  4px;
+
+}
+
+/* imagenes */
+section{
+    margin-top: 20px ;
+    position: absolute;
+    left: 200px ;
+    float: left;
 }
