@@ -86,3 +86,19 @@ section{
     left: 200px ;
     float: left;
 }
+ 
+.uno{
+    position: absolute;
+    left: 200px;
+    top: 575px ; 
+  }
+  .dos {
+      position: absolute;
+      left: 200px;
+      top:640px; 
+  }
+  .tres{
+      position:absolute; 
+      left: 200px ;
+      top : 490px  ; 
+  }
