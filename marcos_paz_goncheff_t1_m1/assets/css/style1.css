@@ -1,104 +1,97 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Courier New", Courier, monospace;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 
-body{
-    position: relative;
+body {
+  position: relative;
 }
-header>h1 {
-    font-size: 50px;
-    z-index: 2;
-}
-
-header .banner2{
-    width: 100%;
-    height: 400px;
-    margin: auto;
-    border: 2px solid black;
-    background-image: url(../img/design1_image2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+header > h1 {
+  font-size: 50px;
+  z-index: 2;
 }
 
-body > main .pages{
-
-position: absolute; 
-top: 15px ; 
-
-} 
-
-.pages{
-    position: relative;
-    background-color: green; 
-    color :aliceblue;
-    text-decoration: none;
-    padding: 15px ;
-   
-}
-.index{
-    left: 1024px   ;
-    
-    border:1px solid black;
-}
-.contact{
-    left:1098px; 
-    border:1px solid black;
-}
-.aboutMe{
-    left: 1200px;
-    border:1px solid black;
+header .banner2 {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  border: 2px solid black;
+  background-image: url(../img/design1_image2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.title>h2{
-    width: 100%;
-    background-color: black;
-    color:white;
-    text-align: center;
+body > main .pages {
+  position: absolute;
+  top: 15px;
 }
 
+.pages {
+  position: relative;
+  background-color: green;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px;
+}
+.index {
+  left: 1024px;
 
+  border: 1px solid black;
+}
+.contact {
+  left: 1098px;
+  border: 1px solid black;
+}
+.aboutMe {
+  left: 1200px;
+  border: 1px solid black;
+}
 
+.title > h2 {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
 
 /* imagenes */
 .logo {
-    width: 200px;
-    height: 200px; 
-    position:absolute;
-     top:480px; 
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 480px;
 }
 
 .image2 {
-    width: 250px;
-    height: auto;
-    float:right;
-    box-shadow: 4px 4px  4px;
-
+  width: 250px;
+  height: auto;
+  float: right;
+  box-shadow: 4px 4px 4px;
 }
 
 /* imagenes */
-section{
-    margin-top: 20px ;
-    position: absolute;
-    left: 200px ;
-    float: left;
+section {
+  margin-top: 20px;
+  position: absolute;
+  left: 200px;
+  float: left;
 }
- 
-.uno{
-    position: absolute;
-    left: 200px;
-    top: 575px ; 
-  }
-  .dos {
-      position: absolute;
-      left: 200px;
-      top:640px; 
-  }
-  .tres{
-      position:absolute; 
-      left: 200px ;
-      top : 490px  ; 
-  }
+
+.uno {
+  position: absolute;
+  left: 200px;
+  top: 575px;
+}
+.dos {
+  position: absolute;
+  left: 200px;
+  top: 640px;
+}
+.tres {
+  position: absolute;
+  left: 200px;
+  top: 490px;
+}
